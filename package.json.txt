@@ -1,0 +1,12 @@
+{
+  "name": "simple-health-app",
+  "version": "1.0.0",
+  "description": "Node.js Express app with a health endpoint",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
