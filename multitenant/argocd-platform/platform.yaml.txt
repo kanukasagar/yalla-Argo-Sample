@@ -1,0 +1,9 @@
+project:
+  name: argocd-sample
+  description: Sample onboarding app using ArgoCD
+  snowpkg: SPKG0000000
+  deployment_flow:
+    - phase: 1
+      env_name: "staging"
+    - phase: 2
+      env_name: "production"
